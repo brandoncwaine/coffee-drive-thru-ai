@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Croissant",
+        "price": 1.5
+    },
+    {
+        "name": "Almond croissant",
+        "price": 2
+    },
+    {
+        "name": "Chocolate cookie",
+        "price": 1.5
+    },
+	{
+		"name": "Ham and cheese toastie",
+		"price": 0.5
+	}
+]

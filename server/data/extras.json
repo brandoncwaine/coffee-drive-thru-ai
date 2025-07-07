@@ -1,0 +1,22 @@
+[
+    {
+		"name": "Vanilla Syrup",
+		"price": 0.5
+	},
+	{
+		"name": "Caramel Syrup",
+		"price": 0.5
+	},
+	{
+		"name": "Hazelnut Syrup",
+		"price": 0.5
+	},
+    {
+        "name": "Extra Hot",
+        "price": 0
+    },
+    {
+        "name": "Extra shot",
+        "price": 0.5
+    }
+]

@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes blink {
+	48% {
+		height: 3rem;
+	}
+	50% {
+		height: 5px;
+		top: 1.5rem;
+		width: 2.5rem;
+		right: 2.5rem;
+	}
+	52% {
+		height: 3rem;
+	}
+}
+
+@keyframes scan {
+	9% {
+		left: calc(100% - 4rem);
+		top: calc(100% - 3.5rem);
+	}
+	10% {
+		left: 10px;
+		top: 10px;
+	}
+	30% {
+		left: 10px;
+		top: 10px;
+	}
+	31% {
+		right: 10px;
+		top: 10px;
+	}
+	50% {
+		right: 10px;
+		top: 10px;
+	}
+	51% {
+		left: calc(100% - 4rem);
+		top: calc(100% - 3.5rem);
+	}
+}
+
+#bot_eye {
+	position: relative;
+}
+
+#bot_pupil {
+	height: 3rem;
+	width: 2rem;
+	right: 0px;
+	left: calc(100% - 4rem);
+	top: calc(100% - 3.5rem);
+	position: absolute;
+	animation: blink 5s, scan 10s;
+	animation-delay: 4s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}

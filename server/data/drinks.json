@@ -1,0 +1,54 @@
+[
+	{
+		"name": "Double Espresso",
+		"price": 2.4
+	},
+    {
+        "name": "Large Latte",
+        "price": 4.3
+    },
+    {
+        "name": "Medium Latte",
+        "price": 3.8
+    },
+    {
+        "name": "Small Latte",
+        "price": 3.2
+    },
+    {
+        "name": "Large Cappuccino",
+        "price": 4.5
+    },
+    {
+        "name": "Medium Cappuccino",
+        "price": 4.0
+    },
+    {
+        "name": "Small Cappuccino",
+        "price": 3.5
+    },
+    {
+        "name": "Flat White",
+        "price": 2.5
+    },
+    {
+        "name": "Flat Black",
+        "price": 2.5
+    },
+    {
+        "name": "Mocha",
+        "price": 2.5
+    },
+    {
+        "name": "Small Hot Chocolate",
+        "price": 2.2
+    },
+    {
+        "name": "Medium Hot Chocolate",
+        "price": 2.5
+    },
+    {
+        "name": "Large Hot Chocolate",
+        "price": 3.0
+    }
+]
